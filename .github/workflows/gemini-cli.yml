@@ -314,3 +314,4 @@ jobs:
             - **If you are unsure about the fix or answer, explain your reasoning and ask clarifying questions.**
             - **Follow project conventions and best practices.**
             - IMPORTANT: DO NOT use command substitution using $(), <(), or >(), github actiosn fails with this
+            - IMPORTANT: When using write_file tool: File path must be absolute
