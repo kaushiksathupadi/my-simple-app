@@ -307,11 +307,13 @@ jobs:
                - If the question requires code or documentation changes, follow the fix process above, including creating and updating a checklist plan and **creating a new branch for your changes as described in section 1.**
                - Write a clear, concise answer in `response.md` and post it as an issue comment: `gh issue comment "${ISSUE_NUMBER}" --body-file response.md`
 
+            - IMPORTANT: When using write_file tool: File path must be absolute
+
             ## Guidelines
 
             - **Be concise and actionable.** Focus on solving the user's problem efficiently.
             - **Always commit and push your changes if you modify code or documentation.**
             - **If you are unsure about the fix or answer, explain your reasoning and ask clarifying questions.**
             - **Follow project conventions and best practices.**
-            - IMPORTANT: DO NOT use command substitution using $(), <(), or >(), github actiosn fails with this
+            - IMPORTANT: DO NOT use command substitution using $(), <(), or >(), github action fails with this
             - IMPORTANT: When using write_file tool: File path must be absolute
